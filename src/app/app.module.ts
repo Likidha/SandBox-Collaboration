@@ -1,16 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { APP_BOOTSTRAP_LISTENER, NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ContactComponent } from './contact/contact.component';
+import { ProjectDetailsComponent } from './project-details/project-details.component';
+import { BlogComponent } from './blog/blog.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContactComponent,
+    ProjectDetailsComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
