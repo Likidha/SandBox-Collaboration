@@ -19,9 +19,10 @@ body {
 }
 
 h1 {
-  font: 2em sans-serif;
-  font-size: 40px;
- padding-top: 2em;
+
+  font: 2em, Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  padding-top: 2em;
   font-weight: 100;
   color: 1a1a2e;
   font-weight: bold;
@@ -36,12 +37,19 @@ h2 {
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 26px;
+  margin-top: 2em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p {
-  font-size: 24px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 26px;
+  text-align: left;
+  margin-bottom: 0px;
+  padding-top: 0em;
+  font-weight: 370;
+
 }
 
 /*  ====================Buttons =======*/
@@ -128,11 +136,24 @@ header h1 {
   background-size: 80%;
   height: 900px;
   min-height: 900px;
+  margin-right: 4em;
 }
 
-.about h1 {
+.about h2 {
   margin-bottom: 30px;
-  padding-top: 300px;
+  padding-top: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.about p {
+  margin-bottom: 0px;
+  padding-top: 0em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 28px;
+  text-align: right;
 }
 
 .icons img {
@@ -165,7 +186,7 @@ header h1 {
 
 /*jbvjfv*/
 .row {
-  padding-left: 6em;
+  padding-left: 5em;
   padding-top: 0em;
 }
 .item-holder{
@@ -180,6 +201,13 @@ header h1 {
    overflow:hidden;
    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.1);
    transition: all 0.5s;
+}
+
+.item p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+  margin-bottom: 1em;
+  padding-left: 10px;
 }
 .item .image{
   height:150px;
@@ -226,23 +254,23 @@ body {
 
 button.demo {
   background-color: hsl(200,80%,40%);
-  border: 1px solid hsl(200,80%,30%);
+  border: 2px solid hsl(200,80%,30%);
   margin-top: 40px;
 }
 button.signup {
   background-color: rgb(20, 184, 121);
-	border: 1px solid rgb(15, 138, 91);
+	border: 2px solid rgb(15, 138, 91);
 }
 
 button {
   margin: 0 10px;
-  width: 120px;
+  width: 140px;
 
   height: 40px;
   border-radius: 20px;
 	color: white;
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: bolder;
   background-image: linear-gradient(top, hsla(0,0%,100%,.2) 1px, hsla(0,0%,100%, 0) 1px, hsla(0,0%,0%, .1) 100% );
   box-shadow: 0 60px 12px -18px hsla(0,0%,0%,.1),
     					0 60px 20px -12px hsla(0,0%,0%,.1);
@@ -262,57 +290,59 @@ button.signup {
   }
 }
 
-#footer .twitter{
-background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
-background-repeat: no-repeat;
-background-position: 0 0;
-} 
-#footer .linkedin{
-background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
-background-repeat: no-repeat;
-background-position: -78px 0;
-}   
-#footer .facebook{
-background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
-background-repeat: no-repeat;
-background-position: -233px 0;
-}    
-#footer .skype{
-background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
-background-repeat: no-repeat;
-background-position: -156px 0;
-}    
-#footer .flickr{
-background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
-background-repeat: no-repeat;
-background-position: -310px 0;
-}    
-#footer a{
-height: 56px;
-width: 56px;
-display: inline-block;
-margin: 10px;
-}                                 
-#footer a:hover{
-transition: all 0.3s ease-out;
--webkit-transition: all 0.3s ease-out;
-}   
-#footer .twitter:hover {
-background-position: 0 -56px;
-}
-#footer .facebook:hover {
-background-position:-233px -56px;
-}
-#footer .skype:hover {
-background-position: -156px -56px;
-}
-#footer .linkedin:hover {
-background-position: -78px -56px;
-}
-#footer .flickr:hover {
-background-position: -310px -56px;
-}
+/*footer*/
 
+
+#footer .twitter{
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  } 
+  #footer .linkedin{
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: -78px 0;
+  }   
+  #footer .facebook{
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: -233px 0;
+  }    
+  #footer .skype{
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: -156px 0;
+  }    
+  #footer .flickr{
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: -310px 0;
+  }    
+  #footer a{
+  height: 56px;
+  width: 56px;
+  display: inline-block;
+  margin: 10px;
+  }                                 
+  #footer a:hover{
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  }   
+  #footer .twitter:hover {
+  background-position: 0 -56px;
+  }
+  #footer .facebook:hover {
+  background-position:-233px -56px;
+  }
+  #footer .skype:hover {
+  background-position: -156px -56px;
+  }
+  #footer .linkedin:hover {
+  background-position: -78px -56px;
+  }
+  #footer .flickr:hover {
+  background-position: -310px -56px;
+  }
 
 
 
